@@ -1,0 +1,1496 @@
+{
+    "years": [
+        {
+            "year": "1909",
+            "issues": [
+                {
+                    "issueNumber": 1,
+                    "date": "March 1909",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Daa Telane Kom (When the Telers Came)",
+                            "pages": "3-10"
+                        },
+                        {
+                            "title": "Buffalo - Bygdi (Buffalo Settlement)",
+                            "pages": "11-15"
+                        },
+                        {
+                            "title": "Ymse Minnerunir (Various Memories)",
+                            "pages": "15-29"
+                        },
+                        {
+                            "title": "Noko um Telelage (Information about Telelaget)",
+                            "pages": "30-37"
+                        },
+                        {
+                            "title": "Daa eg voks upp (When I Grew Up)",
+                            "pages": "38-53"
+                        },
+                        {
+                            "title": "Olaf O. Vinje",
+                            "pages": "54-59"
+                        },
+                        {
+                            "title": "Folkevisur (Folk Songs/Ballads)",
+                            "pages": "60-64"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Bendik Bondahl",
+                            "page": "2"
+                        },
+                        {
+                            "description": "Olaf O. Vinje",
+                            "page": "11-15"
+                        }
+                    ],
+                    "keywords": [
+                        "Fergus Falls, Minnesota",
+                        "S. B. Salverson",
+                        "Martin Jacobsen",
+                        "Snowshoe Thompson",
+                        "John Lie",
+                        "A. A. Trovatten",
+                        "John Evenson Moli",
+                        "Ole Knutsen Trovatten",
+                        "Torkel Oftelie",
+                        "Hans Tveito",
+                        "John Nilsen Rue"
+                    ]
+                },
+                {
+                    "issueNumber": 2,
+                    "date": "October 1909",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                    {
+                            "title": "Gunnar Dale",
+                            "pages": "2-9"
+                      },
+                      {
+                            "title": "Ormekvaalene (The Ormekvaalers)",
+                            "pages": "9-14"
+                      },
+                      {
+                            "title": "Aani Bondal",
+                            "pages": "14-21"
+                      },
+                      {
+                            "title": "Torgeir Gunnarson Midbø",
+                            "pages": "21-24"
+                      },
+                      {
+                            "title": "Ei natt paa Munken (A Night on Munken)",
+                            "pages": "25-33"
+                      },
+                      {
+                            "title": "Fraa Skrivaren (Secretary’s Report on the Stevne in Climax - June 1908)",
+                            "pages": "34-37"
+                      },
+                      {
+                            "title": "Norske Folkevisur (Norwegian Folk Songs/Ballads) sung by Olav Tortveit; includes: Fru Ingebjørg, Lindi Som Talar, Lomiskyrkja (Lomis Church)",
+                            "pages": "37-40"
+                      },
+                      {
+                            "title": "Grunnlov fyr Telelage (Telelaget’s Constitution)",
+                            "pages": "41"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Gunnar Dale and wife",
+                            "page": "2"
+                        },
+                        {
+                            "description": "Gunhild Halvarsdotter Skrei",
+                            "page": "2"
+                        },
+                        {
+                            "description": "Torgeir G. Midbø",
+                            "page": "21"
+                        }
+                    ],
+                    "keywords": [
+                        "Climax, Minnesota",
+                        "T. Morten",
+                        "Fergus Falls, Minnesota",
+                        "Signe Oftelie",
+                        "Highland Prairie",
+                        "Torkel Oftelie",
+                        "Bendik Bondahl",
+                        "S. B. Salverson",
+                        "Osmund Olavson Bondal",
+                        "Hans Samuelson",
+                        "Aani Breiland",
+                        "Elias Stenerson",
+                        "Ole Brevik",
+                        "Ingebjørg Studelien",
+                        "Olav Gjermundson",
+                        "A. A. Trovaten",
+                        "Østein Ingulfsland",
+                        "Hans Tveito",
+                        "Martin Jacobsen"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "1910",
+            "issues": [
+                {
+                    "issueNumber": "3",
+                    "date": "March 1910",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Alexander Norman",
+                            "pages": "2-11"
+                        },
+                        {
+                            "title": "Aasmund Nestestog",
+                            "pages": "11-14"
+                        },
+                        {
+                            "title": "Sandhill Bygdi (Sandhill Settlement)",
+                            "pages": "14-21"
+                        },
+                        {
+                            "title": "Meir um Buffalo Bygdi (More about Buffalo Settlement)",
+                            "pages": "22-26"
+                        },
+                        {
+                            "title": "Telemari - Thule (Telemark - Thule)",
+                            "pages": "26-27"
+                        },
+                        {
+                            "title": "Jonsok (Midsummer) Poem by Jon Norstog",
+                            "pages": "27-28"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Alexander Norman",
+                            "page": "2"
+                        }
+                    ],
+                    "keywords": []
+                },
+                {
+                    "issueNumber": "4",
+                    "date": "June 1910",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Upprit fraa Telelages trea Aarsmøte, halde i Crookston, Minn., den 23de Juni, 1909 (Report from Telelaget’s Third Annual Meeting in Crookston, Minn, June 23,1909)",
+                            "pages": "3-13"
+                        },
+                        {
+                            "title": "Poem: Hugsjuk (Heartache)",
+                            "pages": "8-10"
+                        },
+                        {
+                            "title": "Poem: Svar til Hugsjuk (Answer to Heartache)",
+                            "pages": "10"
+                        },
+                        {
+                            "title": "Tale holdt av Torkel Oftelie, ved Stevnet i Fargo den 25nde juni, 1907 (Speech by Torkel Oftelie at the Fargo Stevne- June 25, 1907)",
+                            "pages": "13-18"
+                        },
+                        {
+                            "title": "Kaffevisa (Coffee Song) by Olav Fetveit",
+                            "pages": "18-21"
+                        },
+                        {
+                            "title": "Telerne i den Norske Hersoga (Telemark People in Norwegian Military History)",
+                            "pages": "21-24"
+                        },
+                        {
+                            "title": "Telerne i Viking-Tidi (Telemark People in the Viking Times)",
+                            "pages": "22"
+                        },
+                        {
+                            "title": "Lagsmenn i Telelage (Telelaget’s Membership List)",
+                            "pages": "25-32"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Group picture: Mrs. A. J. Subey, Mrs. Jorann Anderson, and Mrs. D. A. Tandvig",
+                            "page": "2"
+                        }
+                    ],
+                    "keywords": [
+                        "Crookston, Minnesota",
+                        "S. B. Salverson",
+                        "Lårdal",
+                        "Elias Steenerson",
+                        "Gunder Gunderson Dahle (Civil War Veteran)",
+                        "A. A. Trovaten",
+                        "Martin Jacobsen",
+                        "Hans Tveito",
+                        "Torkel Oftelie"
+                    ]
+                },
+                {
+                    "issueNumber": "5",
+                    "date": "September 1910",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Et Par gamle Breve (A Couple Old Letters) of Olav Knutsen Trovatten, written to Torleiv Djuve at Øyfjøll",
+                            "pages": "2-9"
+                        },
+                        {
+                            "title": "Et Stykke Familiehistorie (Part of a Family History) by John Lie",
+                            "pages": "9-13"
+                        },
+                        {
+                            "title": "Upprit fraa Stevne i Minot, den 24de Juni 1910 (Report from the Minot Stevne - June 24, 1910)",
+                            "pages": "13-15"
+                        }
+                    ],
+                    "pictures": [],
+                    "keywords": [
+                        "Martin Jacobsen",
+                        "A. A. Trovatten",
+                        "Torkel Oftelie",
+                        "Ole Knutsen Trovatten",
+                        "S. B. Salverson"
+                    ]
+                },
+                {
+                    "issueNumber": "6",
+                    "date": "December 1910",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Olaus A. Norman",
+                            "pages": "3-13"
+                        },
+                        {
+                            "title": "Gamle Segnir og Fortelljinger (Old Tales and Stories) – Sigurd Liæ; Kjæmpune (Giants); Gjevesto-Trudde (A Troll); Aslak Borgjildson; Hegglands Kjørkje (Heggland’s Church); Hærfolk fra Fyresdal (Soldier’s from Fyrsedal); Gamle Gardar (Old Farms); Kort (Short) Bergve and Hart (Hard) Hæsstad",
+                            "pages": "14-19"
+                        },
+                        {
+                            "title": "Telesoga - A review of Telesogas by Professor Halvdan Koht from the Christiania (Oslo) University",
+                            "pages": "19-21"
+                        },
+                        {
+                            "title": "Fraa Skrivaren (Report from Telelaget’s Secretary)",
+                            "pages": "21-24"
+                        },
+                        {
+                            "title": "Boken om Fyresdal (Book about Fyresdal)",
+                            "pages": "24-28"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Olaus Aslakson Norman",
+                            "page": "3"
+                        }
+                    ],
+                    "keywords": [
+                        "Martin Jacobsen",
+                        "Torkel Oftelie",
+                        "A. C. Preus",
+                        "S. B. Salverson",
+                        "A. A. Trovaten"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "1911",
+            "issues": [
+                {
+                    "issueNumber": "7 & 8",
+                    "date": "March-May 1911",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Telebygdi i Worth og Winnebago County, Iowa (Telemark Settlements in Worth and Winnebago County, Iowa)",
+                            "pages": "3-10"
+                        },
+                        {
+                            "title": "Telebygdi i det 13 Towns (Telemark Settlements in the 13 Towns) - in Polk County",
+                            "pages": "11-14"
+                        },
+                        {
+                            "title": "Gamle Kjempekarar i Mo (Old Giant Men in Mo)",
+                            "pages": "14-19"
+                        },
+                        {
+                            "title": "Tarjei Haugo",
+                            "pages": "19-20"
+                        },
+                        {
+                            "title": "Den fyste Telemarkjente (The First Telemark Girl) – Aslaug Einong married to Hans Tveito from Tinn",
+                            "pages": "20-21"
+                        },
+                        {
+                            "title": "Spilemannen, Olav Gunnarson Napper (Fiddler, Olav Gunnarson Napper)",
+                            "pages": "21-22"
+                        },
+                        {
+                            "title": "Gunnar Bjaaland",
+                            "pages": "22-27"
+                        },
+                        {
+                            "title": "Naar Telemarkingar møtast (When the People of Telemark Meet) - a short humorous story",
+                            "pages": "28"
+                        },
+                        {
+                            "title": "Drawing of Tarjei and Sigrid",
+                            "pages": "29"
+                        },
+                        {
+                            "title": "Til Lagsmen i Telelage (To the Members of Telelaget)",
+                            "pages": "30-31"
+                        },
+                        {
+                            "title": "Dei utkomme hefte av Telesoga (Published booklets of Telesoga)",
+                            "pages": "32"
+                        },
+                        {
+                            "title": "Bøker (Books) for sale",
+                            "pages": "Inside Back Cover"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Olav & Anne Haugo",
+                            "page": "18"
+                        },
+                        {
+                            "description": "Tarjei Haugo",
+                            "page": "19"
+                        },
+                        {
+                            "description": "Aslaug Einong",
+                            "page": "20"
+                        }
+                    ],
+                    "keywords": [
+                        "Hardangerfele",
+                        "Torkel Oftelie",
+                        "Tarjei Torjusen & Anne Aslaksdtr",
+                        "Torjus Olavson",
+                        "Martin Jacobsen",
+                        "S. B. Salverson",
+                        "Anna Abrahamsdtr Midbø",
+                        "A. A. Trovatten"
+                    ]
+                },
+                {
+                    "issueNumber": "9",
+                    "date": "July 1911",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Four short paragraphs - Telelag information",
+                            "pages": "3"
+                        },
+                        {
+                            "title": "Livsvarige Lagsmenn (Life-time Members)",
+                            "pages": "4"
+                        },
+                        {
+                            "title": "Lagsmenn som er innmeldt etter 1ste oktober 1910 (Members who are registered after October 1, 1910)",
+                            "pages": "4-8"
+                        }
+                    ],
+                    "pictures": [],
+                    "keywords": [
+                        "Martin Jacobsen of Vestfjorddalen, Tinn, Telemark",
+                        "A. A. Trovatten",
+                        "Torkel Oftelie",
+                        "Ole Knutsen Trovatten",
+                        "S. B. Salverson"
+                    ]
+                },
+                {
+                    "issueNumber": "10",
+                    "date": "December 1911",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Optegnelser for Telesoga ved A. O. Houkom (Memorandum for Telesoga by A.O. Houkom) about Pigeon Creek and Trempeleau Valley, Wisconsin",
+                            "pages": "3-36"
+                        },
+                        {
+                            "title": "Det gamle paret - (The Old Couple) Du Øystein Blomhaug – a poem by Halvard Berg",
+                            "pages": "37-39"
+                        },
+                        {
+                            "title": "A O Houkim",
+                            "pages": "40-41"
+                        },
+                        {
+                            "title": "Telestevne i Blair, Wis. (Telelaget Stevne in Blair, Wis.)",
+                            "pages": "41-42"
+                        },
+                        {
+                            "title": "Past. S. S. Urberg (Pastor S. S. Urberg)",
+                            "pages": "43"
+                        },
+                        {
+                            "title": "O. T. Ormbred",
+                            "pages": "43-44"
+                        },
+                        {
+                            "title": "Telestevnet i Lake Mills, Iowa (Telelaget Stevne in Lake Mills, Iowa)",
+                            "pages": "44-45"
+                        },
+                        {
+                            "title": "Past. A. J. Torgerson (Pastor A. J. Torgerson)",
+                            "pages": "45-46"
+                        },
+                        {
+                            "title": "T. S. Tweed",
+                            "pages": "46"
+                        },
+                        {
+                            "title": "A. A. Trovaten",
+                            "pages": "47"
+                        },
+                        {
+                            "title": "Martin Jacobson",
+                            "pages": "47"
+                        },
+                        {
+                            "title": "Salve B. Salverson",
+                            "pages": "48"
+                        },
+                        {
+                            "title": "Torkel Oftelie",
+                            "pages": "48"
+                        },
+                        {
+                            "title": "Minnegaava til Mo i Telemarki (Memorial Gift to Mo in Telemark)",
+                            "pages": "49"
+                        },
+                        {
+                            "title": "Myllargutenpp (The Miller’s Boy) - fiddler",
+                            "pages": "49"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "O.T. Orenbreck (Secretary for Wisconsin Telelag)",
+                            "page": "2"
+                        },
+						{
+						    "description": "Pastor S. S. Urberg",
+                            "page": "43"
+                        },
+						{
+						    "description": "Pastor A. J. Torgerson",
+                            "page": "45"
+                        },
+						{
+						    "description": "T. S. Tweed",
+                            "page": "46"
+                        },
+						{
+						    "description": "A. A. Trovaten",
+                            "page": "46"
+                        },
+						{
+						    "description": "Martin Jacobson",
+                            "page": "47"
+                        },
+						{
+						    "description": "Salve B. Salveson",
+                            "page": "48"
+                        },
+                        {
+                            "description": "Torkel Oftelie",
+                            "page": "48"
+                        }
+                    ],
+                    "keywords": [
+                        "Lake Mills",
+                        "Pigeon Creek",
+                        "Evan Heg",
+                        "Gunder Nichols",
+                        "Peter Nerisen Steinsrud"
+						"Gunlief Storlie",
+                        "Ole Knutsen Trovatten",
+                        "Hans Tveito"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "1912",
+            "issues": [
+                {
+                    "issueNumber": "11",
+                    "date": "March 1912",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Bygdedigting paa Telemarki (Poetry in the Rural Districts of Telemark) – Olav Fetveit",
+                            "pages": "3-21"
+                        },
+                        {
+                            "title": "Visur (Songs/ballads)",
+                            "pages": ""
+                        },
+                        {
+                            "title": "1. Kaffevisa (Coffee Ballad)",
+                            "pages": "21-24"
+                        },
+                        {
+                            "title": "2. Belar og brudlaup (Suitor and Wedding)",
+                            "pages": "24-27"
+                        },
+                        {
+                            "title": "3. Skyttarsong (The Marksman’s Song)",
+                            "pages": "27-28"
+                        },
+                        {
+                            "title": "4. Den nye visdom (The New Wisdom)",
+                            "pages": "29-31"
+                        },
+                        {
+                            "title": "5. Sang til dampskibet “St. Olaf” (Song for the Steamship “St. Olaf”)",
+                            "pages": "31-32"
+                        },
+                        {
+                            "title": "Merknadir (Comments to the above songs)",
+                            "pages": "33-41"
+                        },
+                        {
+                            "title": "Tillegg (Supplement)",
+                            "pages": "41-47"
+                        },
+                        {
+                            "title": "Dei av Telesoga (Published booklets of the Telesoga)",
+                            "pages": "48"
+                        },
+                        {
+                            "title": "Ralph Waldo Emerson – Presenting Oscar Gunderson’s book",
+                            "pages": "Inside Back Cover"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Olaf Fetveit and family",
+                            "page": "2"
+                        }
+                    ],
+                    "keywords": [
+                        "Vestfjorddalen, Tinn, Telemark",
+                        "S. B. Salverson",
+                        "Martin Jacobsen",
+                        "A. A. Trovatten",
+                        "Torkel Oftelie",
+                        "Ole Knutson Trovatten"
+                    ]
+                },
+                {
+                    "issueNumber": "12",
+                    "date": "June 1912",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Nokre Telar i Pope County, Minn (Some People from Telemark in Pope County)",
+                            "pages": "5-19"
+                        },
+                        {
+                            "title": "Dond, drengen paa Drottning (Dond, Farmhand at Drottning)",
+                            "pages": "19-26"
+                        },
+                        {
+                            "title": "Nye Lagsmenn sea seinste lista var prenta (New Members since last printing)",
+                            "pages": "26-28"
+                        },
+                        {
+                            "title": "Kjetil aa Guttorm (Kjetil and Guttorm) - short story",
+                            "pages": "30"
+                        },
+                        {
+                            "title": "A. K. Tweto (Aasmund Knutson Tveito) - obituary",
+                            "pages": "31"
+                        },
+                        {
+                            "title": "Fraa Skrivaren (From the Secretary)",
+                            "pages": "32-34"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Dr. Henry Shipstead",
+                            "page": "7"
+                        },
+                        {
+                            "description": "Tarjei Guttormson Sandokli",
+                            "page": "9"
+                        },
+                        {
+                            "description": "Pastor G. T. Lee",
+                            "page": "10"
+                        },
+                        {
+                            "description": "Dr. Carl A. Fjelstad",
+                            "page": "17"
+                        },
+                        {
+                            "description": "Olav Branbu",
+                            "page": "18"
+                        }
+                    ],
+                    "keywords": [
+                        "Minnewaska",
+                        "Torbjørn Torbjørnson Moyane",
+                        "The Pavilion",
+                        "Hellick A. Myra",
+                        "Knut Simonson Aa",
+                        "Halvor Halvorson Nestestog",
+                        "Gulleik Aasvaldson",
+                        "Torstein Olavson",
+                        "Eiliv Branbu",
+                        "Gunnar Olson",
+                        "Aslak Sveinsson Bukøy",
+                        "Torkel Oftelie",
+                        "Askak Andvardson (Overson) Finnkosi",
+                        "Salve Olavson",
+                        "Knut Audvardson Finnkosi",
+                        "Olav O. Reine",
+                        "Olaus Olavson Grove",
+                        "S. B. Salverson",
+                        "Olav Halvorson Hagen",
+                        "John Johnson Sandvik",
+                        "Gregor Halvorson",
+                        "Mrs. E. P. Storaker",
+                        "Gregus Halvorson",
+                        "Jørgen Thompson",
+                        "Tov Halvorson",
+                        "Theodore Thorson",
+                        "Reidar Hanson",
+                        "Knut Torgerson",
+                        "Knut Rodvaldson Haugeland",
+                        "Theodore Torguson",
+                        "Ole Irgens",
+                        "A. A. Trovatten",
+                        "Ivar Ivarson",
+                        "Steinar Tveit",
+                        "Knut Ivarson",
+                        "Halvor Hanson Ulsness",
+                        "Olav Kjetilson",
+                        "Casper Wollan",
+                        "Wilhelm H. Loss",
+                        "Michael Wollan"
+                    ]
+                },
+                {
+                    "issueNumber": "13",
+                    "date": "September 1912",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Gamle Koshkonong og Stoughton, Wis. (Old Koshkonong & Stoughton, Wis.)",
+                            "pages": "3-33"
+                        },
+                        {
+                            "title": "Telestevne i Glenwood (Telelag Stevne in Glenwood)",
+                            "pages": "34"
+                        },
+                        {
+                            "title": "Dei Utkomne Hefti av Telesoga (The Published Booklets of Telesoga)",
+                            "pages": "34-36"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Olav Oftelie",
+                            "page": "8"
+                        },
+						{
+                            "description": "Olav Teisberg",
+                            "page": "10"
+                        }
+                    ],
+                    "keywords": [
+                        "Dane County, Wisconsin",
+                        "Pleasant Spring",
+                        "Rasmus B. Anderson",
+                        "Østen Blomhaugen",
+						"Olav Graven",
+                        "Torvald Grønlie",
+                        "John Nilson Luraas",
+                        "Torkel Oftelie",
+						"N K Reindahl",
+                        "S. B. Salverson",
+                        "A. A. Trovatten",
+                        "T. S. Tweed"
+                    ]
+                },
+                {
+                    "issueNumber": "14",
+                    "date": "December 1912",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Jusurei-visa (Jusurei Ballad)",
+                            "pages": "3-4"
+                        },
+                        {
+                            "title": "Telane i Tamarack-Dalen (Telemark People in Tamarack-Valley) Wisconsin",
+                            "pages": "5-15"
+                        },
+						{
+                            "title": "90 Aar gamal -Livssoga av Herbjørn Alsson Veseth  (Ninety Years Old - Life History of Herbjørn Alsson Veseth)",
+                            "pages": "16-19"
+                        },
+                        {
+                            "title": "Reisa til Haraldshaugen paa Tusenaarsfesten i 1872 (Trip to Haraldshaugen for the Thousand-Year Celebration in 1872)- Ballad",
+                            "pages": "20-27"
+                        },
+						{
+                            "title": "Eit nytt Brageløvte (A New Broken Promise)- Ballad",
+                            "pages": "28-29"
+                        },
+                        {
+                            "title": "Lensmanssøkna (Application for Sheriff Position)",
+                            "pages": "30"
+                        },
+                        {
+                            "title": "Dei Utkomne Hefti av Telesoga (The Published Booklets of Telesoga)",
+                            "pages": "31-32"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Knut and Anne Strand",
+                            "page": "7"
+                        },
+						{
+                            "description": "Julia Gilbertson",
+                            "page": "11"
+                        },
+						{
+                            "description": "Sigurd Bjørguvson & Ingebjørg",
+                            "page": "14"
+                        }
+                    ],
+                    "keywords": [
+                        "Trempeleau County, Wisconsin",
+                        "Vestfjorddalen",
+                        "Rjukan",
+						"Halvor Aasheim",
+                        "Rasmus B. Anderson",
+                        "A. O. Eivenskos",
+						"Torvald Grønlie",
+                        "Olav Guttormson",
+                        "A. O. Houkum",
+						"John Nilson Luraas",
+                        "Halvor Moen",
+                        "Torkel Oftelie",
+						"Olav Olson",
+                        "Olav Ormbreck",
+                        "N. K Reindahl",
+						"Salve B. Salverson",
+                        "Jørund Telnes",
+                        "A. A. Trovatten",
+						"T. S. Tweed",
+                        "Hans Tveito"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "1913",
+            "issues": [
+                {
+                    "issueNumber": "15",
+                    "date": "March 1913",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Forord (Preface)",
+                            "pages": "3-4"
+                        },
+                        {
+                            "title": "Telerne i Santiago og Glendorado i Minnesota (Telemark People in Santiago and Glendorado in Minnesota) 1862 - 1879",
+                            "pages": "5-31"
+                        },
+                        {
+                            "title": "Anden periode (Second Period) 1880 - 1892",
+                            "pages": "32-68"
+                        },
+                        {
+                            "title": "Tredje periode (Third period) 1893 - 1910",
+                            "pages": "69-88"
+                        }
+                    ],
+                    "pictures": [
+                        {
+                            "description": "Klara Kitilsen",
+                            "page": "2"
+                        },
+                        {
+                            "description": "Pastor B. Langseth",
+                            "page": "4"
+                        },
+                        {
+                            "description": "Ole og Kjirsti Abrahamsen",
+                            "page": "10"
+                        },
+                        {
+                            "description": "Kari Halvorsdatter Tangen",
+                            "page": "16"
+                        },
+						{
+                            "description": "Pastor H .G. Stub",
+                            "page": "28"
+                        },
+                        {
+                            "description": "Den anden sagmølle ved St. Frances River (The second sawmill by the St. Frances River)",
+                            "page": "30"
+                        },
+                        {
+                            "description": "Det gamle Frøiseth hus (The old Frøiseth house)",
+                            "page": "31"
+                        },
+                        {
+                            "description": "Ellef Johnson and wife",
+                            "page": "46"
+                        },
+						{
+                            "description": "S. S. Urberg",
+                            "page": "54"
+                        },
+                        {
+                            "description": "A. N. Kleven",
+                            "page": "61"
+                        },
+                        {
+                            "description": "Pastor Jensen Møller",
+                            "page": "62"
+                        },
+                        {
+                            "description": "John Gilgard",
+                            "page": "66"
+                        },
+						{
+                            "description": "Glendorado prestegaard (parsonage farm)",
+                            "page": "74"
+                        },
+                        {
+                            "description": "O. B Stowe (Staae)",
+                            "page": "76"
+                        },
+                        {
+                            "description": "John Stowe",
+                            "page": "79"
+                        },
+                        {
+                            "description": "O. B. Bunkholdts stockfarm, Glendorado, Benton Co., Minn",
+                            "page": "87"
+                        }
+                    ],
+                    "keywords": [
+                        "St. Francis River",
+						"S. B. Salverson",
+						"Six Mile Grove",
+                        "A. A. Trovatten",
+						"Torkel Oftelie",
+                        "T. S. Tweed",
+                        "N. K. Reindahl"
+                    ]
+                },
+                {
+                    "issueNumber": "16",
+                    "date": "June 1913",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Jørund Telnes (poet/lyricist)",
+                            "pages": "3-7"
+                        },
+                        {
+                            "title": "Poems/songs",
+                            "pages": ""
+                        },
+                        {
+                            "title": "Stev (Verse)",
+                            "pages": "7-8"
+                        },
+                        {
+                            "title": "Forsvar Fe Jentunn (Defend the Girl)",
+                            "pages": "8-9"
+                        },
+                        {
+                            "title": "Te ein fest te skuleboni paa eimbaaten Saint Olav (To a party for school children on steamboat St. Olav)",
+                            "pages": "10-12"
+                        },
+						{
+                            "title": "Bonden (The Farmer)",
+                            "pages": "9-11"
+                        },
+                        {
+                            "title": "Den kloke Guten (The Wise Boy)",
+                            "pages": "11-12"
+                        },
+                        {
+                            "title": "Herads-Repræsentanten (The Community Representative)",
+                            "pages": "12-13"
+                        },
+                        {
+                            "title": "Me skaa bli stortingsmennar (We Will Be Members of Parliament)",
+                            "pages": "13-14"
+                        },
+                        {
+                            "title": "Skjusshesten (Post Horse - for Hire)",
+                            "pages": "14"
+                        },
+						{
+                            "title": "Gjestebos-Vise (A Banquet Song)",
+                            "pages": "14-15"
+                        },
+                        {
+                            "title": "Guro",
+                            "pages": "15-16"
+                        },
+                        {
+                            "title": "Skyttaren i Fjølle (The Sharp-Shooter in the Mountain)",
+                            "pages": "16-17"
+                        },
+                        {
+                            "title": " Rike-Olav aa Sveinung Husmann (Wealthy Olav and Sveinung the Tenant Farmer)",
+                            "pages": "17-18"
+                        },
+                        {
+                            "title": " Jenta som gjekk aa breidde (The Girl Who Was Haying)",
+                            "pages": "18-19"
+                        },
+						{
+                            "title": "Jenta aa Bjønnen (The Girl and the Bear)",
+                            "pages": "19-21"
+                        },
+                        {
+                            "title": "Apalen paa Brennemo (The Apple Tree at Brennemo)",
+                            "pages": "21-22"
+                        },
+                        {
+                            "title": "Finngrase (The Grass at Finnaasen)",
+                            "pages": "22"
+                        },
+                        {
+                            "title": "Vaarsaang (Spring Song)",
+                            "pages": "22-23"
+                        },
+                        {
+                            "title": "Sladremari (Gossiping Mari)",
+                            "pages": "23-24"
+                        },
+						{
+                            "title": "Ore utum (Hinting)",
+                            "pages": "24-25"
+                        },
+                        {
+                            "title": "Sigri",
+                            "pages": "26-27"
+                        },
+                        {
+                            "title": "Den gjæve Jenta (The Good Girl)",
+                            "pages": "27-28"
+                        },
+                        {
+                            "title": "Sveinkallen (The Bachelor)",
+                            "pages": "28-29"
+                        },
+                        {
+                            "title": "Møykjeringji (The Old Maid)",
+                            "pages": "29-30"
+                        },
+						{
+                            "title": "Dei tri Brøanne paa Forbergje (The Three Brothers at Forbergje)",
+                            "pages": "30"
+                        },
+                        {
+                            "title": "I Aar aa i Fjor (This Year and Last Year)",
+                            "pages": "31"
+                        },
+                        {
+                            "title": "Aasmund Vinje",
+                            "pages": "32-34"
+                        },
+                        {
+                            "title": "Myllarguten (The Miller Boy)",
+                            "pages": "34"
+                        },
+                        {
+                            "title": "Normannen aa Føesheimen (The Norwegian and his Birthplace)",
+                            "pages": "35-36"
+                        },
+						{
+                            "title": "Daa eg saag Oustanaa (When I Saw Oustanaa /Østenaå)",
+                            "pages": "36"
+                        },
+                        {
+                            "title": "Ansgars Droum (Ansgar’s Dream)",
+                            "pages": "36-37"
+                        },
+                        {
+                            "title": "Svolo (The Swallow)",
+                            "pages": "37-38"
+                        },
+                        {
+                            "title": "Mæ eg va liten (When I was a Child)",
+                            "pages": "39-40"
+                        },
+                        {
+                            "title": "Te vesle Brodotter (To My Brother’s Little Daughter)",
+                            "pages": "41"
+                        },
+						{
+                            "title": "Ivi vesle Hilleborg [Peace] (Upon Little Hilleborg)",
+                            "pages": "41-42"
+                        },
+                        {
+                            "title": "Jolekva (Christmas Song)",
+                            "pages": "42-43"
+                        },
+                        {
+                            "title": "Saangjen liver, Mannen døyr (The Song Lives, the Man Dies)",
+                            "pages": "43-44"
+                        },
+                        {
+                            "title": "Den Heilage Saangjen (The Holy Song)",
+                            "pages": "44-45"
+                        }
+                    ],
+                    "pictures": [],
+                    "keywords": [
+                        "Torkel Oftelie",
+                        "S. B. Salverson",
+                        "A. A. Trovatten",
+                        "T. S. Tweed",
+                        "N. K. Reindahl"
+                    ]
+                },
+                {
+                    "issueNumber": "17",
+                    "date": "September 1913",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Telane i Houston County, Minn. (The People from Telemark in Houston County, Minn.)",
+                            "pages": "3-28"
+                        },
+                        {
+                            "title": "The Ole Party - Written in English",
+                            "pages": "29"
+                        },
+                        {
+                            "title": "Ole’s Birthday - Written in English",
+                            "pages": "30-32"
+                        },
+                        {
+                            "title": "Nye lagsmenn inmeldt sea seinste Lista var prenta (New members since the last issue was printed)",
+                            "pages": "32-35"
+                        },
+                        {
+                            "title": "Upprit fraa Stevne i Glenwood, Minn. 25de Juni, 1912 (Report from the Stevne in Glenwood, Minn. June 25, 1912)",
+                            "pages": "36-38"
+                        },
+						{
+                            "title": "Fraa Skrivaren (From the Editor)",
+                            "pages": "39-41"
+                        }
+                    ],
+                    "pictures": [
+					{
+                            "description": "Ole T. Findreng and Family",
+                            "page": "10"
+                        },
+                        {
+                            "description": "Aani Lee Farm",
+                            "page": "18"
+                        },
+                        {
+                            "description": "John Lee",
+                            "page": "21"
+                        },
+                        {
+                            "description": "John Lee's Farm",
+                            "page": "26"
+                        },
+						{
+                            "description": "The Ole Forsyth party",
+                            "page": "29"
+                        },
+                        {
+                            "description": "Den gamle stein-kjyrkja ved Houston (The old stone church by Houston)",
+                            "page": "34"
+                        }
+					],
+                    "keywords": [
+                        "Root River",
+                        "Salve B. Salverson",
+                        "Osmund Aslakson",
+                        "Hendrik Shipstead",
+						"Torkel Oftelie",
+                        "A. A. Trovaten",
+                        "N. K. Reindahl",
+                        "T. S. Tweed",
+                        "Olav Johnson Lie"
+                    ]
+                },
+                {
+                    "issueNumber": "18",
+                    "date": "December 1913",
+                    "language": "Norwegian",
+                    "volume": "",
+                    "number": "",
+                    "contents": [
+                        {
+                            "title": "Telane i Fillmore County, Minn. - Highland Prairie (The People from Telemark in Fillmore County, Minn. - Highland Prairie)",
+                            "pages": "3-15"
+                        },
+                        {
+                            "title": "Tinndolane ved Harmony (The People from Tinn at Harmony)",
+                            "pages": "16-22"
+                        },
+						{
+                            "title": "Telestevnur i 1913 (Telelag Stevnes in 1913)",
+                            "pages": "22"
+                        },
+                        {
+                            "title": "Kaiu og Tone - Two different books written by John Norstog",
+                            "pages": "23-24"
+                        },
+						{
+                            "title": "Samband (A Bygdelag Booklet)",
+                            "pages": "24-25"
+                        },
+                        {
+                            "title": "100 aarsfesten den 17. mai neste aar  (100-Year Celebration on May 17th, next year)",
+                            "pages": "25"
+                        },
+						{
+                            "title": "Minnegaava (Memorial Gift)",
+                            "pages": "25-26"
+                        },
+                        {
+                            "title": "Dei Utkomne Hefti av Telesoga (The Published Booklets of Telesoga)",
+                            "pages": "27-28"
+                        }
+                    ],
+                    "pictures": [
+					{
+                            "description": "Torkel & Helga Landsverk, Peterson, Minn",
+                            "page": "10"
+                        }
+					],
+                    "keywords": [
+                        "Greenfield",
+                        "Øystein Maeland",
+                        "Ridgeway, Iowa",
+                        "John Norstog",
+                        "Root River Valley",
+                        "Torkel Oftelie",
+						"Tallak Brokken",
+                        "Olav Øverland",
+                        "Gunnar Dale",
+                        "N. K. Reindahl",
+                        "John Jacobson Einong",
+                        "Salve B. Salverson",
+                        "Knut Johnson Husevoll",
+						"Olav Kjetilson Steinsrud",
+                        "Gjermund Kasin"
+                    ]
+                }
+            ]
+        },
+    {
+      "year": "1914",
+      "issues": [
+        {
+          "issueNumber": 19,
+          "date": "March 1914",
+          "language": "Norwegian",
+          "volume": "",
+          "number": "",
+          "contents": [
+            {
+              "title": "Telane i Chippewa og Yellow Medicine Co., Minn. (The People from Telemark in Chippewa and Yellow Medicine Co., Minn)",
+              "pages": "3-30"
+            },
+            {
+              "title": "Telelaget",
+              "pages": "31-35"
+            },
+            {
+              "title": "I Telernes dale -Kviteseid Kirke (In Telemark’s Valley - Kviteseid Church)",
+              "pages": "36"
+            },
+            {
+              "title": "“De hvides eid” (The white strait)",
+              "pages": "37"
+            },
+            {
+              "title": "Halvor Graatops røvertog (Halvor Graatops robbery escapade)",
+              "pages": "38"
+            },
+            {
+              "title": "Kirkens udre og indre (The church’s outside and inside)",
+              "pages": "39"
+            },
+            {
+              "title": "Kongeportrætter i koret (The Kings’ portraits in the chancel)",
+              "pages": "40"
+            },
+            {
+              "title": "Referat af Telelagets aarsmøde i Minneapolis, Minn., 6te January 1914 (Report of Telelaget’s Annual Meeting in Minneapolis, Minn., Jan. 6, 1914)",
+              "pages": "41-43"
+            },
+            {
+              "title": "Minneapolis Telelag",
+              "pages": "44-45"
+            },
+            {
+              "title": "Telernes udstilling ved 17de mai-festen (The Telemark Peoples’ Exhibition at the May 17th Celebration)",
+              "pages": "45-47"
+            },
+            {
+              "title": "Telerne ved hundredeaarsfesten (The Telemark People at the 100-Year Celebration)",
+              "pages": "47-48"
+            },
+            {
+              "title": "17de mai festskrift (May 17th Celebration Publication)",
+              "pages": "48"
+            }
+          ],
+          "pictures": [
+            {
+              "description": "K. Knudsen, Cottonwood, Minn.",
+              "page": "7"
+            },
+            {
+              "description": "Rev. Knut Torstensen, Hanley Falls, Minn.",
+              "page": "9"
+            },
+            {
+              "description": "Rev. T. H. Haugan, Northfield, Minn.",
+              "page": "12"
+            },
+            {
+              "description": "Aslak Halvorsen Trovaten",
+              "page": "14"
+            },
+            {
+              "description": "Mrs. A. H. Trovaten",
+              "page": "14"
+            },
+            {
+              "description": "Trovaten brødrene (brothers) Øistein, Halvor, John, Osvald",
+              "page": "14"
+            },
+            {
+              "description": "H. G. Odden, Echo, Minn.",
+              "page": "28"
+            }
+          ],
+          "keywords": [
+            "Iowa Telelag",
+            "O. A. Houge",
+            "Bandakslag",
+            "O. Kinney",
+            "Milan",
+            "Torkel Oftelie",
+            "Halvor Berg",
+            "N. N. Rønning",
+            "Andrew Bolstead",
+            "A. A. Trovatten"
+          ]
+        },
+        {
+          "issueNumber": 20,
+          "date": "July 1914",
+          "language": "Norwegian",
+          "volume": "",
+          "number": "",
+          "contents": [
+            {
+              "title": "Telar i Chippewa, Yellow Medicine og Lac qui Parle Co. - Fortsat fra forrige nr. (The People from Telemark in Chippewa, Yellow Medicine & Lac qui Parle Counties, Minn. Cont'd from the last issue)",
+              "pages": "3-41"
+            },
+            {
+              "title": "Telerne ved Milan, Chippewa Co. (The People of Telemark by Milan, Chippewa County)",
+              "pages": "42-61"
+            },
+            {
+              "title": "“Til Telemark” (To Telemark) - ad for the song",
+              "pages": "61"
+            },
+            {
+              "title": "Telerne ved hundreaarsfesten (The People of Telemark at the 100-Yr. Celebration)",
+              "pages": "62"
+            },
+            {
+              "title": "Telelagets aarsmøde (Telelaget’s Annual Meeting)",
+              "pages": "63-64"
+            },
+            {
+              "title": "Bøger for telemarkinger (Books for people from Telemark)",
+              "pages": "Inside Back Cover"
+            }
+          ],
+          "pictures": [
+            {
+              "description": "Hon. J. O. Hougland",
+              "page": "7"
+            },
+            {
+              "description": "C. N. C. Blom",
+              "page": "43"
+            },
+            {
+              "description": "T. Anderson",
+              "page": "47"
+            }
+          ],
+          "keywords": [
+            "T. A. Breivik",
+            "Halvor Oden",
+            "Evinskaas",
+            "Torkel Oftelie",
+            "O. G. Kinney",
+            "N. N. Rønning",
+            "Østen Gullicksen Mæland and Anne Olsdatter Øverland",
+            "K. Stensrud",
+            "J. K. Moen",
+            "A. A. Trovaten"
+          ]
+        },
+        {
+          "issueNumber": 21,
+          "date": "September 1914",
+          "language": "Norwegian",
+          "volume": "",
+          "number": "",
+          "contents": [
+            {
+              "title": "Tale holdt ved telestevnet under hundreaarsfesten i Minneapolis, Minn, den 16de mai 1914 - av Pastor T. H. Haugan (Speech at the Telelaget Stevne During the 100-yr. Celebration in Minneapolis, Minn. May 16, 1914 - by Pastor T. H. Haugan)",
+              "pages": "3-16"
+            },
+            {
+              "title": "Aamotsdal i Telemarken (Aamotsdal in Telemark)",
+              "pages": "16-32"
+            }
+		  ],
+          "pictures": [],
+          "keywords": [
+            "T. A. Breivik",
+			"Torkel Oftelie",
+			"O. G. Kinney",
+			"N. N. Rønning",
+			"J. K. Moen",
+			"K. Stensrud",
+			"A. A. Trovaten",
+			"N. K. Reindahl"
+		  ]
+        },
+		{
+          "issueNumber": 22,
+          "date": "December 1914",
+          "language": "Norwegian",
+          "volume": "",
+          "number": "",
+          "contents": [
+            {
+              "title": "Telar i Nord Dakota (People from Telemark in North Dakota)",
+              "pages": "3-15"
+            },
+			{
+              "title": "Telar ved Northwood, N.D. (People from Telemark by Northwood, N.D.)",
+              "pages": "15-36"
+            },
+			{
+              "title": "Hilsen fra Telemarken (Greetings from Telemark) Book review",
+              "pages": "36"
+            },
+            {
+              "title": "Fra Soguskrivaren (From the Historian)",
+              "pages": "Back Cover"
+            }
+		  ],
+          "pictures": [
+            {
+              "description": "Aanon Springane",
+              "page": "7"
+            },
+            {
+              "description": "T. Thorsteinson",
+              "page": "22"
+            },
+			{
+              "description": "Steinar Wenaas",
+              "page": "25"
+            },
+            {
+              "description": "Mr. & Mrs. Harald Utigard",
+              "page": "28"
+            },
+            {
+              "description": "Mr. & Mrs. Simon Thompson Breiland",
+              "page": "28"
+            }
+          ],
+          "keywords": [
+            "T. A. Breivik",
+			"Torkel Oftelie",
+			"O. G. Kinney",
+			"N. N. Rønning",
+			"J. K. Moen",
+			"J. K. Moen",
+			"Sondre Maarheim",
+			"Andrew Qvale and Bergit Maarheim",
+			"A. A. Trovaten",
+			"Walsh County"
+		  ]
+        },
+      ]
+    }
+  ]
+}
