@@ -128,6 +128,12 @@
           lastRow.cells[1].textContent = kw;
         }
       });
+	// now snap the document’s full height and tell the parent
+  	const newHeight = document.documentElement.scrollHeight;
+  	window.parent.postMessage({
+    	type: 'telesoga-resize',
+    	height: newHeight
+  	}, '*');  // you can replace '*' with your parent’s origin for extra safety
     }
 
     // --- Global Search Logic ---
