@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JSON Data Table</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background: #f4f4f4;
+    }
+    .issue-info {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      background-color: #f9f9f9;
+      display: none;
+    }
+  </style>
+  <script>
+    let jsonData = null;
+
+    async function loadJSON() {
+      try {
+        const res = await fetch('https://marius-35.github.io/telesoga/telesoga.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        jsonData = await res.json();
+		console.log(jsonData);
+        populateYearFilter();
+      } catch (err) {
+        console.error('Could not load JSON:', err);
+      }
+    }
+
+    function populateYearFilter() {
+      const yearFilter = document.getElementById('yearFilter');
+      yearFilter.innerHTML = '';
+      jsonData.years.forEach(yearObj => {
+        const opt = document.createElement('option');
+        opt.value = yearObj.year;
+        opt.textContent = yearObj.year;
+        yearFilter.appendChild(opt);
+      });
+      // default to first year
+      yearFilter.selectedIndex = 0;
+      populateIssueFilter();
+    }
+
+    function populateIssueFilter() {
+      const yearFilter = document.getElementById('yearFilter');
+      const issueFilter = document.getElementById('issueFilter');
+      const selectedYear = yearFilter.value;
+      issueFilter.innerHTML = '';
+
+      jsonData.years
+        .find(y => y.year === selectedYear)
+        .issues
+        .forEach(issue => {
+          const opt = document.createElement('option');
+          opt.value = issue.issueNumber;
+          opt.textContent = `Issue ${issue.issueNumber}`;
+          issueFilter.appendChild(opt);
+        });
+
+      // default to first issue
+      issueFilter.selectedIndex = 0;
+      filterData();
+    }
+
+    function filterData() {
+      const yearFilter = document.getElementById('yearFilter');
+      const issueFilter = document.getElementById('issueFilter');
+      const selectedYear = yearFilter.value;
+      const selectedIssue = issueFilter.value;
+
+      const tocBody     = document.getElementById('dataTable');
+      const picBody     = document.getElementById('picturesTable');
+      const kwBody      = document.getElementById('keywordsTable');
+      const infoBox     = document.getElementById('issueInfo');
+
+      // clear previous
+      tocBody.innerHTML = '';
+      picBody.innerHTML = '';
+      kwBody.innerHTML  = '';
+      infoBox.style.display = 'none';
+
+      const yearObj = jsonData.years.find(y => y.year === selectedYear);
+      if (!yearObj) return;
+      const issueObj = yearObj.issues.find(i => String(i.issueNumber) === selectedIssue);
+      if (!issueObj) return;
+
+      // show issue info
+      document.getElementById('issueLanguage').textContent = issueObj.language || 'N/A';
+      document.getElementById('issueVolume')  .textContent = issueObj.volume   || 'N/A';
+      document.getElementById('issueNumber')  .textContent = issueObj.number   || 'N/A';
+      infoBox.style.display = 'block';
+
+      // Table of Contents
+      issueObj.contents.forEach(c => {
+        const row = tocBody.insertRow();
+        row.insertCell(0).textContent = c.title;
+        row.insertCell(1).textContent = c.pages;
+      });
+
+      // Pictures
+      if (issueObj.pictures && issueObj.pictures.length) {
+        issueObj.pictures.forEach(p => {
+          const row = picBody.insertRow();
+          row.insertCell(0).textContent = p.description;
+          row.insertCell(1).textContent = p.page;
+        });
+      }
+
+      // Keywords (two columns)
+      if (issueObj.keywords && issueObj.keywords.length) {
+        let row = null;
+        issueObj.keywords.forEach((kw, idx) => {
+          if (idx % 2 === 0) {
+            row = kwBody.insertRow();
+            row.insertCell(0).textContent = kw;
+            row.insertCell(1).textContent = '';
+          } else {
+            row.cells[1].textContent = kw;
+          }
+        });
+      }
+    }
+  </script>
+</head>
+<body onload="loadJSON()">
+  <h2>Filter Data</h2>
+  <label for="yearFilter">Select Year:</label>
+  <select id="yearFilter" onchange="populateIssueFilter()"></select>
+
+  <label for="issueFilter" style="margin-left:1em;">Select Issue:</label>
+  <select id="issueFilter" onchange="filterData()"></select>
+
+  <div id="issueInfo" class="issue-info">
+    <h3>Selected Issue Information</h3>
+    <p><strong>Language:</strong> <span id="issueLanguage">N/A</span></p>
+    <p><strong>Volume:</strong> <span id="issueVolume">N/A</span></p>
+    <p><strong>Number:</strong> <span id="issueNumber">N/A</span></p>
+  </div>
+
+  <h2>Table of Contents</h2>
+  <table>
+    <thead>
+      <tr><th>Title</th><th>Page Numbers</th></tr>
+    </thead>
+    <tbody id="dataTable"></tbody>
+  </table>
+
+  <h2>Pictures</h2>
+  <table>
+    <thead>
+      <tr><th>Description</th><th>Page</th></tr>
+    </thead>
+    <tbody id="picturesTable"></tbody>
+  </table>
+
+  <h2>Keywords</h2>
+  <table>
+    <thead>
+      <tr><th>Keyword 1</th><th>Keyword 2</th></tr>
+    </thead>
+    <tbody id="keywordsTable"></tbody>
+  </table>
+</body>
+</html>
