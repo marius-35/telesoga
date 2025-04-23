@@ -169,18 +169,7 @@
       results.style.display = 'block';
     }
   </script>
-  
-  <script>
-  function sendHeight() {
-    const height = document.documentElement.scrollHeight;
-    // send to parent; you can restrict targetOrigin instead of '*'
-    window.parent.postMessage({ type:'resize-iframe', height }, '*');
-  }
-
-  window.addEventListener('load', sendHeight);
-  window.addEventListener('resize', sendHeight);
-</script>
-
+	
 </head>
 <body onload="loadJSON()">
   <!-- GLOBAL SEARCH -->
