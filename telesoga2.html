@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>JSON Data Table</title>
+  <title>JSON Data Table (Filter & Search)</title>
   <style>
     body {
       font-family: sans-serif;
@@ -22,12 +22,16 @@
     th {
       background: #f4f4f4;
     }
-    .issue-info {
+    .issue-info, .search-results {
       margin-top: 20px;
       padding: 10px;
       border: 1px solid #ddd;
       background-color: #f9f9f9;
       display: none;
+    }
+    .search-results ul {
+      margin: 0;
+      padding-left: 1.2em;
     }
   </style>
   <script>
@@ -38,115 +42,154 @@
         const res = await fetch('https://marius-35.github.io/telesoga/telesoga.json');
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         jsonData = await res.json();
-		console.log(jsonData);
         populateYearFilter();
       } catch (err) {
         console.error('Could not load JSON:', err);
       }
     }
 
+    // --- Filter-by-Year/Date Logic ---
     function populateYearFilter() {
       const yearFilter = document.getElementById('yearFilter');
       yearFilter.innerHTML = '';
-      jsonData.years.forEach(yearObj => {
+      jsonData.years.forEach(y => {
         const opt = document.createElement('option');
-        opt.value = yearObj.year;
-        opt.textContent = yearObj.year;
+        opt.value = y.year;
+        opt.textContent = y.year;
         yearFilter.appendChild(opt);
       });
-      // default to first year
       yearFilter.selectedIndex = 0;
-      populateIssueFilter();
+      populateDateFilter();
     }
 
-    function populateIssueFilter() {
-      const yearFilter = document.getElementById('yearFilter');
-      const issueFilter = document.getElementById('issueFilter');
-      const selectedYear = yearFilter.value;
-      issueFilter.innerHTML = '';
-
+    function populateDateFilter() {
+      const year = document.getElementById('yearFilter').value;
+      const dateFilter = document.getElementById('dateFilter');
+      dateFilter.innerHTML = '';
       jsonData.years
-        .find(y => y.year === selectedYear)
-        .issues
-        .forEach(issue => {
+        .find(y => y.year === year)
+        .issues.forEach(issue => {
           const opt = document.createElement('option');
-          opt.value = issue.issueNumber;
-          opt.textContent = `Issue ${issue.issueNumber}`;
-          issueFilter.appendChild(opt);
+          opt.value = issue.date;
+          opt.textContent = issue.date;
+          dateFilter.appendChild(opt);
         });
-
-      // default to first issue
-      issueFilter.selectedIndex = 0;
+      dateFilter.selectedIndex = 0;
       filterData();
     }
 
     function filterData() {
-      const yearFilter = document.getElementById('yearFilter');
-      const issueFilter = document.getElementById('issueFilter');
-      const selectedYear = yearFilter.value;
-      const selectedIssue = issueFilter.value;
+      const year = document.getElementById('yearFilter').value;
+      const date  = document.getElementById('dateFilter').value;
 
-      const tocBody     = document.getElementById('dataTable');
-      const picBody     = document.getElementById('picturesTable');
-      const kwBody      = document.getElementById('keywordsTable');
-      const infoBox     = document.getElementById('issueInfo');
+      const tocBody = document.getElementById('dataTable');
+      const picBody = document.getElementById('picturesTable');
+      const kwBody  = document.getElementById('keywordsTable');
+      const info   = document.getElementById('issueInfo');
 
-      // clear previous
       tocBody.innerHTML = '';
       picBody.innerHTML = '';
       kwBody.innerHTML  = '';
-      infoBox.style.display = 'none';
+      info.style.display = 'none';
 
-      const yearObj = jsonData.years.find(y => y.year === selectedYear);
-      if (!yearObj) return;
-      const issueObj = yearObj.issues.find(i => String(i.issueNumber) === selectedIssue);
-      if (!issueObj) return;
+      const yrObj = jsonData.years.find(y => y.year === year);
+      if (!yrObj) return;
+      const issue = yrObj.issues.find(i => i.date === date);
+      if (!issue) return;
 
-      // show issue info
-      document.getElementById('issueLanguage').textContent = issueObj.language || 'N/A';
-      document.getElementById('issueVolume')  .textContent = issueObj.volume   || 'N/A';
-      document.getElementById('issueNumber')  .textContent = issueObj.number   || 'N/A';
-      infoBox.style.display = 'block';
+      // Populate issue info
+      document.getElementById('issueLanguage').textContent = issue.language || 'N/A';
+      document.getElementById('issueVolume').textContent   = issue.volume   || 'N/A';
+      document.getElementById('issueNumber').textContent   = issue.number   || 'N/A';
+      info.style.display = 'block';
 
       // Table of Contents
-      issueObj.contents.forEach(c => {
+      issue.contents.forEach(c => {
         const row = tocBody.insertRow();
         row.insertCell(0).textContent = c.title;
         row.insertCell(1).textContent = c.pages;
       });
 
       // Pictures
-      if (issueObj.pictures && issueObj.pictures.length) {
-        issueObj.pictures.forEach(p => {
-          const row = picBody.insertRow();
-          row.insertCell(0).textContent = p.description;
-          row.insertCell(1).textContent = p.page;
-        });
-      }
+      (issue.pictures || []).forEach(p => {
+        const row = picBody.insertRow();
+        row.insertCell(0).textContent = p.description;
+        row.insertCell(1).textContent = p.page;
+      });
 
       // Keywords (two columns)
-      if (issueObj.keywords && issueObj.keywords.length) {
-        let row = null;
-        issueObj.keywords.forEach((kw, idx) => {
-          if (idx % 2 === 0) {
-            row = kwBody.insertRow();
-            row.insertCell(0).textContent = kw;
-            row.insertCell(1).textContent = '';
-          } else {
-            row.cells[1].textContent = kw;
+      (issue.keywords || []).forEach((kw, idx) => {
+        if (idx % 2 === 0) {
+          const row = kwBody.insertRow();
+          row.insertCell(0).textContent = kw;
+          row.insertCell(1).textContent = '';
+        } else {
+          const lastRow = kwBody.rows[kwBody.rows.length - 1];
+          lastRow.cells[1].textContent = kw;
+        }
+      });
+    }
+
+    // --- Global Search Logic ---
+    function searchData() {
+      const term = document.getElementById('searchInput').value.trim().toLowerCase();
+      const results = document.getElementById('searchResults');
+      results.innerHTML = '';
+      results.style.display = 'none';
+
+      if (!term) return;
+
+      // Collect unique dates where term appears
+      const foundDates = new Set();
+      jsonData.years.forEach(y => {
+        y.issues.forEach(issue => {
+          const inContents = issue.contents.some(c => c.title.toLowerCase().includes(term));
+          const inPics     = (issue.pictures || []).some(p => p.description.toLowerCase().includes(term));
+          const inKeys     = (issue.keywords || []).some(k => k.toLowerCase().includes(term));
+          if (inContents || inPics || inKeys) {
+            foundDates.add(issue.date);
           }
         });
+      });
+
+      // Render results
+      if (foundDates.size) {
+        const ul = document.createElement('ul');
+		const sortedDates = Array.from(foundDates)
+                           .sort((a, b) => new Date(a) - new Date(b));
+
+		sortedDates.forEach(date => {
+			const li = document.createElement('li');
+			li.textContent = date;
+			ul.appendChild(li);
+		});        results.appendChild(ul);
+      } else {
+        results.textContent = 'No results found.';
       }
+      results.style.display = 'block';
     }
   </script>
 </head>
 <body onload="loadJSON()">
-  <h2>Filter Data</h2>
-  <label for="yearFilter">Select Year:</label>
-  <select id="yearFilter" onchange="populateIssueFilter()"></select>
+  <!-- GLOBAL SEARCH -->
+  <h2>Issue Search</h2>
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Enter search term…"
+    onkeydown="if(event.key==='Enter') searchData()"
+    style="width:200px; padding:4px;"
+  />
+  <button onclick="searchData()">Search</button>
+  <div id="searchResults" class="search-results"></div>
 
-  <label for="issueFilter" style="margin-left:1em;">Select Issue:</label>
-  <select id="issueFilter" onchange="filterData()"></select>
+  <!-- EXISTING FILTER -->
+  <h2 style="margin-top:2em;">Filter by Year / Date</h2>
+  <label for="yearFilter">Select Year:</label>
+  <select id="yearFilter" onchange="populateDateFilter()"></select>
+
+  <label for="dateFilter" style="margin-left:1em;">Select Date:</label>
+  <select id="dateFilter" onchange="filterData()"></select>
 
   <div id="issueInfo" class="issue-info">
     <h3>Selected Issue Information</h3>
@@ -174,7 +217,7 @@
   <h2>Keywords</h2>
   <table>
     <thead>
-      <tr><th>Keyword 1</th><th>Keyword 2</th></tr>
+      <tr><th>Keyword</th><th>Keyword</th></tr>
     </thead>
     <tbody id="keywordsTable"></tbody>
   </table>
