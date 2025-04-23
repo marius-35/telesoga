@@ -128,7 +128,7 @@
           lastRow.cells[1].textContent = kw;
         }
       });
-	// now snap the document’s full height and tell the parent
+	// this is not working on the Telelaget site and can be deleted without issue
   	const newHeight = document.documentElement.scrollHeight;
   	window.parent.postMessage({
     	type: 'telesoga-resize',
